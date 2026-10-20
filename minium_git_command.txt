@@ -1,0 +1,31 @@
+git init
+git clone https://github.com/rkmjld2/datalogger_remote.git
+git pull origin main
+git add .
+git commit -m "Fix imports and embeddings"
+git push
+
+/////////////////
+
+git pull origin main
+git add install.php view3_datewise.php get_logs.php index.php  postdemo.php DockerFile
+git commit -m "Fix imports and embeddings"
+git push
+
+
+
+////////////for generating QR code 
+https://esp-switch5a-remote.onrender.com/qr.php?controller_id=ESP0001
+
+
+///////////to run from browser
+https://esp-switch5a-remote.onrender.com/c/ESP0001
+
+
+
+
+
+
+
+
+
